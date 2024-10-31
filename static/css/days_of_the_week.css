@@ -1,0 +1,37 @@
+.day {
+    background-image: var(--background-image);
+    background-size: 3592px 4103px;
+    height: 62px;
+    width: 186px;
+    position: absolute;
+    z-index: 4;
+    transform: translateX(30px) translateY(100px) rotate(-4deg);
+}
+
+.monday {
+    background-position: -536px -3870px;
+}
+
+.tuesday {
+    background-position: -724px -3864px;
+}
+
+.wednesday {
+    background-position: -912px -3870px;
+}
+
+.thursday {
+    background-position: -528px -3942px;
+}
+
+.friday {
+    background-position: -724px -3942px;
+}
+
+.saturday {
+    background-position: -528px -4018px;
+}
+
+.sunday {
+    background-position: -724px -4018px;
+}

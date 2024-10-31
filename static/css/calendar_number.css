@@ -5,8 +5,12 @@ body {
 .number-container {
     display: block;
     position: relative;
-    height: 140px;
+    height: 180px;
     width: 100px;
+}
+
+.ones-digit {
+    transform: translateX(66px) translateY(-8px) rotate(8deg);
 }
 
 .number {
