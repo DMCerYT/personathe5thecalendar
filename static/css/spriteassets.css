@@ -1,0 +1,156 @@
+body {
+    background-color: gray;
+}
+
+.number-container {
+    display: block;
+    position: relative;
+    height: 140px;
+    width: 100px;
+}
+
+.number {
+    background-image: var(--background-image);
+    background-size: 3592px 4103px;
+    height: 120px;
+    filter: brightness(0);
+    width: 80px;
+    position: absolute;
+}
+
+.number-inner-outline {
+    background-image: var(--background-image);
+    background-size: 3592px 4103px;
+    height: 120px;
+    filter: brightness(0) invert(1);
+    width: 86px;
+    position: absolute;
+}
+
+.number-outer-outline {
+    background-image: var(--background-image);
+    background-size: 3592px 4103px;
+    filter: brightness(0);
+    height: 140px;
+    width: 100px;
+    position: absolute;
+}
+
+.number-0 {
+    background-position: -883px -3101px;
+    top: 14px;
+    left: 10px;
+    z-index: 2;
+}
+
+
+.number-1 {
+    background-position: -954px -3101px;
+    top: 14px;
+    left: 10px;
+    z-index: 2;
+}
+
+.number-1-inner-outline {
+    background-position: -644px -2690px;
+    top: 12px;
+    left: 8px;
+    z-index: 1;
+}
+
+.number-1-outer-outline {
+    background-position: -830px -2559px;
+    z-index: 0;
+}
+
+.number-2 {
+    background-position: -883px -3220px;
+    top: 14px;
+    left: 10px;
+    z-index: 2;
+}
+
+.number-2-inner-outline {
+    background-position: -644px -2818px;
+    top: 12px;
+    left: 10px;
+    z-index: 1;
+}
+
+.number-2-outer-outline {
+    background-position: -928px -2559px;
+    z-index: 0;
+}
+
+.number-3 {
+    background-position: -954px -3220px;
+    top: 14px;
+    left: 10px;
+    z-index: 2;
+}
+
+.number-3-inner-outline {
+    background-position: -552px -2810px;
+    top: 12px;
+    left: 8px;
+    z-index: 1;
+}
+
+.number-3-outer-outline {
+    background-position: -728px -2696px;
+    z-index: 0;
+}
+
+.number-4 {
+    background-position: -814px -3094px;
+    top: 14px;
+    left: 10px;
+    z-index: 2;
+}
+
+.number-4-inner-outline {
+    background-position: -552px -2932px;
+    top: 8px;
+    left: 8px;
+    z-index: 1;
+}
+
+.number-4-outer-outline {
+    background-position: -824px -2698px;
+    z-index: 0;
+}
+
+.number-5 {
+    background-position: -954px -3332px;
+    top: 14px;
+    left: 10px;
+    z-index: 2;
+}
+
+.number-6 {
+    background-position: -954px -3452px;
+    top: 14px;
+    left: 10px;
+    z-index: 2;
+}
+
+.number-7 {
+    background-position: -883px -3332px;
+    top: 14px;
+    left: 10px;
+    z-index: 2;
+}
+
+.number-8 {
+    background-position: -883px -3452px;
+    top: 14px;
+    left: 10px;
+    z-index: 2;
+}
+
+.number-9 {
+    background-position: -742px -3094px;
+    top: 14px;
+    left: 10px;
+    z-index: 2;
+}
