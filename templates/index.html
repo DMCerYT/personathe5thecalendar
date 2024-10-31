@@ -6,93 +6,97 @@
     <title>Persona 5 Calendar</title>
     <link rel="stylesheet" href="{% static 'css/calendar_number.css' %}">
     <link rel="stylesheet" href="{% static 'css/days_of_the_week.css' %}">
+    <link rel="stylesheet" href="{% static 'css/cal_background.css' %}">
     
     <style>
         :root {
-            --background-image: url("{% static 'images/sprite_assets.png' %}")
+            --background-image: url("{% static 'images/sprite_assets.png' %}");
+            --shibuya-image: url("{% static 'images/shibuyaloadingscreen.jpg' %}");
         }
     </style>
 </head>
 <body>
-    <div class="number-container num-one">
-        <div class="number number-1"></div>
-        <div class="number-inner-outline number-1-inner-outline"></div>
-        <div class="number-outer-outline number-1-outer-outline"></div>
-        <div class="day monday"></div>
-    </div>
-    <div class="number-container num-two">
-        <div class="number number-2"></div>
-        <div class="number-inner-outline number-2-inner-outline"></div>
-        <div class="number-outer-outline number-2-outer-outline"></div>
-        <div class="day tuesday"></div>
-    </div>
-    <div class="number-container num-three">
-        <div class="number number-3"></div>
-        <div class="number-inner-outline number-3-inner-outline"></div>
-        <div class="number-outer-outline number-3-outer-outline"></div>
-        <div class="day wednesday"></div>
-    </div>
-    <div class="number-container num-four">
-        <div class="number number-4"></div>
-        <div class="number-inner-outline number-4-inner-outline"></div>
-        <div class="number-outer-outline number-4-outer-outline"></div>
-        <div class="day thursday"></div>
-    </div>
-    <div class="number-container num-five">
-        <div class="number number-5"></div>
-        <div class="number-inner-outline number-5-inner-outline"></div>
-        <div class="number-outer-outline number-5-outer-outline"></div>
-        <div class="day friday"></div>
-    </div>
-    <div class="number-container num-six">
-        <div class="number number-6"></div>
-        <div class="number-inner-outline number-6-inner-outline"></div>
-        <div class="number-outer-outline number-6-outer-outline"></div>
-        <div class="day saturday"></div>
-    </div>
-    <div class="number-container num-seven">
-        <div class="number number-7"></div>
-        <div class="number-inner-outline number-7-inner-outline"></div>
-        <div class="number-outer-outline number-7-outer-outline"></div>
-        <div class="day sunday"></div>
-    </div>
-    <div class="number-container num-eight">
-        <div class="number number-8"></div>
-        <div class="number-inner-outline number-8-inner-outline"></div>
-        <div class="number-outer-outline number-8-outer-outline"></div>
-    </div>
-    <div class="number-container num-nine">
-        <div class="number number-9"></div>
-        <div class="number-inner-outline number-9-inner-outline"></div>
-        <div class="number-outer-outline number-9-outer-outline"></div>
-    </div>
-    <div class="number-container num-zero">
-        <div class="number number-0"></div>
-        <div class="number-inner-outline number-0-inner-outline"></div>
-        <div class="number-outer-outline number-0-outer-outline"></div>
-    </div>
-    <div class="number-container num-ten">
-        <div class="tens-digit">
+    <div class="content">
+        <div class="number-container num-one">
             <div class="number number-1"></div>
             <div class="number-inner-outline number-1-inner-outline"></div>
             <div class="number-outer-outline number-1-outer-outline"></div>
+            <div class="day monday"></div>
         </div>
-        <div class="ones-digit">
+        <div class="number-container num-two">
+            <div class="number number-2"></div>
+            <div class="number-inner-outline number-2-inner-outline"></div>
+            <div class="number-outer-outline number-2-outer-outline"></div>
+            <div class="day tuesday"></div>
+        </div>
+        <div class="number-container num-three">
+            <div class="number number-3"></div>
+            <div class="number-inner-outline number-3-inner-outline"></div>
+            <div class="number-outer-outline number-3-outer-outline"></div>
+            <div class="day wednesday"></div>
+        </div>
+        <div class="number-container num-four">
+            <div class="number number-4"></div>
+            <div class="number-inner-outline number-4-inner-outline"></div>
+            <div class="number-outer-outline number-4-outer-outline"></div>
+            <div class="day thursday"></div>
+        </div>
+        <div class="number-container num-five">
+            <div class="number number-5"></div>
+            <div class="number-inner-outline number-5-inner-outline"></div>
+            <div class="number-outer-outline number-5-outer-outline"></div>
+            <div class="day friday"></div>
+        </div>
+        <div class="number-container num-six">
+            <div class="number number-6"></div>
+            <div class="number-inner-outline number-6-inner-outline"></div>
+            <div class="number-outer-outline number-6-outer-outline"></div>
+            <div class="day saturday"></div>
+        </div>
+        <div class="number-container num-seven">
+            <div class="number number-7"></div>
+            <div class="number-inner-outline number-7-inner-outline"></div>
+            <div class="number-outer-outline number-7-outer-outline"></div>
+            <div class="day sunday"></div>
+        </div>
+        <div class="number-container num-eight">
+            <div class="number number-8"></div>
+            <div class="number-inner-outline number-8-inner-outline"></div>
+            <div class="number-outer-outline number-8-outer-outline"></div>
+        </div>
+        <div class="number-container num-nine">
+            <div class="number number-9"></div>
+            <div class="number-inner-outline number-9-inner-outline"></div>
+            <div class="number-outer-outline number-9-outer-outline"></div>
+        </div>
+        <div class="number-container num-zero">
             <div class="number number-0"></div>
             <div class="number-inner-outline number-0-inner-outline"></div>
             <div class="number-outer-outline number-0-outer-outline"></div>
         </div>
-    </div>
-    <div class="number-container num-eleven">
-        <div class="tens-digit">
-            <div class="number number-1"></div>
-            <div class="number-inner-outline number-1-inner-outline"></div>
-            <div class="number-outer-outline number-1-outer-outline"></div>
+        <div class="number-container num-ten">
+            <div class="tens-digit">
+                <div class="number number-1"></div>
+                <div class="number-inner-outline number-1-inner-outline"></div>
+                <div class="number-outer-outline number-1-outer-outline"></div>
+            </div>
+            <div class="ones-digit">
+                <div class="number number-0"></div>
+                <div class="number-inner-outline number-0-inner-outline"></div>
+                <div class="number-outer-outline number-0-outer-outline"></div>
+            </div>
         </div>
-        <div class="ones-digit">
-            <div class="number number-1"></div>
-            <div class="number-inner-outline number-1-inner-outline"></div>
-            <div class="number-outer-outline number-1-outer-outline"></div>
+        <div class="number-container num-eleven">
+            <div class="tens-digit">
+                <div class="number number-1"></div>
+                <div class="number-inner-outline number-1-inner-outline"></div>
+                <div class="number-outer-outline number-1-outer-outline"></div>
+            </div>
+            <div class="ones-digit">
+                <div class="number number-1"></div>
+                <div class="number-inner-outline number-1-inner-outline"></div>
+                <div class="number-outer-outline number-1-outer-outline"></div>
+            </div>
         </div>
     </div>
 </body>
