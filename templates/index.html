@@ -17,13 +17,15 @@
     </style>
 </head>
 <body>
-    <div class="the-seven-days">
+    <div class="the-day-container">
+        {% for date in dates %}
         <div class="number-container num-one">
             <div class="number number-1"></div>
             <div class="number-inner-outline number-1-inner-outline"></div>
             <div class="number-outer-outline number-1-outer-outline"></div>
-            <div class="day monday"></div>
+            <div class="day" data-day-of-week="{{ date.weekday }}"></div>
         </div>
+        {% endfor %}
         <div class="number-container num-two">
             <div class="number number-2"></div>
             <div class="number-inner-outline number-2-inner-outline"></div>

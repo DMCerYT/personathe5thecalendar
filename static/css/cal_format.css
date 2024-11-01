@@ -1,4 +1,4 @@
-.the-seven-days {
+.the-day-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
