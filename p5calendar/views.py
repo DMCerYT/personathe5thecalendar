@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from datetime import datetime, timedelta
+import python_weather
 
 # Create your views here.
 def index(request):
